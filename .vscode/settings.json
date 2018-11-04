@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/*.import": true,
+        "**/*.aseprite": true,
+        "**/*.tscn": true
+    },
+    "GodotTools.completeNodePath": true,
+    "GodotTools.enableSyntaxChecking": true,
+    "GodotTools.godotProjectRoot": "${workspaceRoot}",
+    "GodotTools.parseTextScene": true,
+    "GodotTools.workspaceDocumentWithMarkdown": true,
+    "GodotTools.editorPath": "C:/godot/godot.exe"
+}
