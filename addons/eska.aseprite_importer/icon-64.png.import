@@ -7,10 +7,7 @@ path="res://.import/icon-64.png-852f8a06dc15e3d1820f4a6b25bde28b.stex"
 [deps]
 
 source_file="res://addons/eska.aseprite_importer/icon-64.png"
-source_md5="96f265f097730ee19ac8c329cfd1c89d"
-
 dest_files=[ "res://.import/icon-64.png-852f8a06dc15e3d1820f4a6b25bde28b.stex" ]
-dest_md5="db97abcd283b8cbd3e2946e8517c8769"
 
 [params]
 

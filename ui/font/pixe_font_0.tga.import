@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ui.png-26fff56b0e84305624d7707d43406564.stex"
+path="res://.import/pixe_font_0.tga-5557b620a3de5dc3d56a703e9c35f9af.stex"
 
 [deps]
 
-source_file="res://addons/open-external-editor/ui.png"
-dest_files=[ "res://.import/ui.png-26fff56b0e84305624d7707d43406564.stex" ]
+source_file="res://ui/font/pixe_font_0.tga"
+dest_files=[ "res://.import/pixe_font_0.tga-5557b620a3de5dc3d56a703e9c35f9af.stex" ]
 
 [params]
 

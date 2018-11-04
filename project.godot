@@ -18,7 +18,7 @@ config/icon="res://icon.png"
 
 resize_autoload="*res://autoloads/resize_autoload.gd"
 SpriteReloader="*res://autoloads/SpriteReloader.gd"
-global="*res://autoloads/global.gd"
+; global="*res://autoloads/global.gd"
 
 [display]
 
@@ -34,7 +34,7 @@ enabled=PoolStringArray( "eska.aseprite_importer", "open-external-editor", "relo
 
 [gui]
 
-theme/custom_font="res://ui/pixe_font.tres"
+theme/custom_font="res://ui/font/pixe_font.tres"
 
 [importer_defaults]
 
