@@ -11,8 +11,55 @@ config_version=3
 [application]
 
 config/name="Starship Developer"
+run/main_scene="res://main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+resize_autoload="*res://autoloads/resize_autoload.gd"
+SpriteReloader="*res://autoloads/SpriteReloader.gd"
+global="*res://autoloads/global.gd"
+
+[display]
+
+window/size/width=400
+window/size/height=300
+window/size/test_width=800
+window/size/test_height=600
+window/stretch/mode="viewport"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "eska.aseprite_importer", "open-external-editor", "reload_sprite" )
+
+[gui]
+
+theme/custom_font="res://ui/pixe_font.tres"
+
+[importer_defaults]
+
+texture={
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d": false,
+"flags/anisotropic": false,
+"flags/filter": false,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
 
 [rendering]
 
+quality/2d/use_pixel_snap=true
+quality/filters/anisotropic_filter_level=1
+quality/shadows/filter_mode=0
 environment/default_environment="res://default_env.tres"
