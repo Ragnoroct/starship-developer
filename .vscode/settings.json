@@ -10,5 +10,6 @@
     "GodotTools.godotProjectRoot": "${workspaceRoot}",
     "GodotTools.parseTextScene": true,
     "GodotTools.workspaceDocumentWithMarkdown": true,
-    "GodotTools.editorPath": "C:/godot/godot.exe"
+    "GodotTools.editorPath": "C:/godot/godot.exe",
+    "python.linting.pylintEnabled": false
 }

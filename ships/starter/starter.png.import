@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/corner.png-43f8c5cb4fd061850d631809362a300f.stex"
+path="res://.import/starter.png-7c4a4f1854dc60801eb6951efe80a218.stex"
 
 [deps]
 
-source_file="res://ui/corner.png"
-dest_files=[ "res://.import/corner.png-43f8c5cb4fd061850d631809362a300f.stex" ]
+source_file="res://ships/starter/starter.png"
+dest_files=[ "res://.import/starter.png-7c4a4f1854dc60801eb6951efe80a218.stex" ]
 
 [params]
 

@@ -1,0 +1,14 @@
+Rooms:
+    engine
+        - dodging
+        - movement speed
+        - power
+        - jump
+    guns
+        - damage
+    shield
+        - defense
+    bridge
+        - survalence
+        - ship information
+        - navigation 

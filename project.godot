@@ -18,14 +18,13 @@ config/icon="res://icon.png"
 
 resize_autoload="*res://autoloads/resize_autoload.gd"
 SpriteReloader="*res://autoloads/SpriteReloader.gd"
-; global="*res://autoloads/global.gd"
 
 [display]
 
-window/size/width=400
-window/size/height=300
-window/size/test_width=800
-window/size/test_height=600
+window/size/width=320
+window/size/height=240
+window/size/test_width=640
+window/size/test_height=480
 window/stretch/mode="viewport"
 
 [editor_plugins]
