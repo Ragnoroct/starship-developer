@@ -53,7 +53,7 @@ class Handler(FileSystemEventHandler):
     def batchFiles(cls):
         currentBatch = cls.toBatch.copy()
         for path in currentBatch:
-            if Path(path).exists() == False:
+            if Path(path).exists() == False or Path(path).suffix = ".tmp":
                 continue
             fileContents = Path(path).read_bytes()
             hashValue = hashlib.md5(fileContents).hexdigest()

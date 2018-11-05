@@ -15,18 +15,3 @@ Design:
             - navigation
 
 Todo:
-    ☐ Fix error in aseprite watcher
-        Traceback (most recent call last): _
-        File "tools/aseprite_watcher.py", line 78, in <module>
-            w.run()
-        File "tools/aseprite_watcher.py", line 23, in run
-            Handler.batchFiles()
-        File "tools/aseprite_watcher.py", line 58, in batchFiles
-            fileContents = Path(path).read_bytes()
-        File "C:\Users\Willy\AppData\Local\Programs\Python\Python37-32\lib\pathlib.py", line 1171, in read_bytes
-            with self.open(mode='rb') as f: _
-        File "C:\Users\Willy\AppData\Local\Programs\Python\Python37-32\lib\pathlib.py", line 1165, in open
-            opener=self._opener)
-        File "C:\Users\Willy\AppData\Local\Programs\Python\Python37-32\lib\pathlib.py", line 1019, in _opener
-            return self._accessor.open(self, flags, mode)
-        PermissionError: [Errno 13] Permission denied: 'tools\\..\\default_env.tres.tmp'
