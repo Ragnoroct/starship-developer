@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ship.png-0e41308e5bd34ca873e2cac3a2fa74d9.stex"
+path="res://.import/bullet.png-c34480079eaaa1f375e32a141718bc61.stex"
 
 [deps]
 
-source_file="res://ships/starter/ship.png"
-dest_files=[ "res://.import/ship.png-0e41308e5bd34ca873e2cac3a2fa74d9.stex" ]
+source_file="res://ships/starter/bullet.png"
+dest_files=[ "res://.import/bullet.png-c34480079eaaa1f375e32a141718bc61.stex" ]
 
 [params]
 
@@ -16,9 +16,9 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
-flags/mipmaps=true
-flags/anisotropic=true
+flags/filter=false
+flags/mipmaps=false
+flags/anisotropic=false
 flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
