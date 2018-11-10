@@ -17,7 +17,8 @@ config/icon="res://icon.png"
 [autoload]
 
 resize_autoload="*res://autoloads/resize_autoload.gd"
-SpriteReloader="*res://autoloads/SpriteReloader.gd"
+SpriteReloader="*res://autoloads/global.gd"
+global="*res://autoloads/global.gd"
 
 [display]
 

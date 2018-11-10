@@ -4,11 +4,10 @@ extends Node2D
 # var a = 2
 # var b = "textvar"
 
-func _ready():
-    # Called when the node is added to the scene for the first time.
-    # Initialization here
-    pass
-
+func _process(delta):
+    update()
 
 func _draw():
-    draw_line(Vector2(0,0), Vector2(250,250), Color(255, 0, 0), 1)
+    for line in global.lines_to_draw:
+        draw_line(line.point1, line.point2, line.color)
+    global.lines_to_draw = []
